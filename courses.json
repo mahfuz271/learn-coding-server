@@ -3,42 +3,42 @@
       "id": 1,
       "title": "Fundamental Of UI/UX Design",
       "desc": "Basics of UX design and Adobe XD to create a working solution by combining UI with your UX design.",
-      "img": "images/course-1.png",
+      "img": "courses/course-1.png",
       "price": 11.99
     },
     {
       "id": 2,
       "title": "Javascript Basic to advanced",
       "desc": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges, and theory. Many courses in one!",
-      "img": "images/course-2.png",
+      "img": "courses/course-2.png",
       "price": 15.99
     },
     {
       "id": 3,
       "title": "Fullstack Web Development",
       "desc": "Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps",
-      "img": "images/course-3.png",
+      "img": "courses/course-3.png",
       "price": 21.99
     },
     {
       "id": 4,
       "title": "Digital Marketing",
       "desc": "Join thousands of students who have MASTERED Facebook advertising with this COMPLETE Facebook Marketing Mastery Course",
-      "img": "images/course-4.png",
+      "img": "courses/course-4.png",
       "price": 30
     },
     {
       "id": 5,
       "title": "Photography Basic Rules",
       "desc": "The Best Online Professional Photography Class: How to Take Amazing Photos for Beginners & Advanced Photographers",
-      "img": "images/course-5.png",
+      "img": "courses/course-5.png",
       "price": 25
     },
     {
       "id": 6,
       "title": "Motion Graphics",
       "desc": "Adobe After Effects CC Create stunning Motion Graphics, VFX Visual Effects & VFX Compositing with 50+ practice projects.",
-      "img": "images/course-6.png",
+      "img": "courses/course-6.png",
       "price": 50
     }
   ]
