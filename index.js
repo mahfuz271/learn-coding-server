@@ -19,7 +19,7 @@ app.get('/course/:id', function ({ params }, res, next) {
     res.json(data)
 })
 
-app.use('images', express.static('images'))
+app.use('/images', express.static('images'))
 
 app.listen(port, () => {
     console.log(`LearnCoding server app listening on port ${port}`)
