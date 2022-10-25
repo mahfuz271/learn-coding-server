@@ -13,5 +13,5 @@ app.get('/course/:id', function (req, res, next) {
 })
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
+    console.log(`LearnCoding server app listening on port ${port}`)
 })
