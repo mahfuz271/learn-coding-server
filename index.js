@@ -6,12 +6,17 @@ app.use(cors())
 
 const courses = require("./courses.json")
 
+app.get('/', (req, res) => {
+    res.send('Server created for assignment 10 by Mahfuz.')
+})
+
 app.get('/courses', (req, res) => {
     res.json(courses)
 })
 
-app.get('/course/:id', function (req, res, next) {
-    res.json(courses.find((el) => {el.id===req.params.id}))
+app.get('/course/:id', function ({ params }, res, next) {
+    const data = courses.find(({ id }) => id == params.id);
+    res.json(data)
 })
 
 app.listen(port, () => {
