@@ -10,6 +10,9 @@ app.get('/courses', (req, res) => {
     res.json(courses)
 })
 
+app.get('/course/:id', function (req, res, next) {
+    res.json(courses.find((el) => {el.id===req.params.id}))
+})
 
 app.listen(port, () => {
     console.log(`LearnCoding server app listening on port ${port}`)
